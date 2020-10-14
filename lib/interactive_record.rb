@@ -13,10 +13,8 @@ def self.column_names
   column_names
     table_info.each do |column|
       column_names << column["name"]
-    end 
-  column_names.comapct 
+    end
+  column_names.comapct
 end
 
-end 
-
-
+end
